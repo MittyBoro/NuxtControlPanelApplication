@@ -5,6 +5,18 @@
 This is a Nuxt 3 based frontend project that serves as the control panel for a live streaming service. The project is currently in a beta version and the codebase could benefit from some refactoring, but it is actively being used in a production environment.
 The project utilizes the Nuxt.js framework, which is built on top of Vue.js, to provide a modern and efficient user interface. It includes several key features and integrations:
 
+This project includes the following technologies:
+
+- **Frontend Framework**: Nuxt.js 3 (based on Vue.js)
+- **Backend API**: Laravel with Sanctum authentication
+- **Real-time communication**: Pusher
+- **Data visualization**: Chart.js
+- **WYSIWYG editing**: Tiptap
+- **Styling**: Nuxt UI, Tailwind CSS
+- **Support libraries**: Axios, Dayjs, Slugify and others
+
+For the project, it includes several key functions and integrations:
+
 - Theming and Color Mode: The application supports both light and dark color modes, with the ability to automatically switch based on user preferences.
 - Authentication: The project integrates with a backend API built on Laravel using the Sanctum authentication library. This allows users to log in, log out, and access protected user-specific data.
 - Pusher Integration: The application uses the Pusher real-time communication platform to provide real-time updates and notifications to users.
